@@ -1,355 +1,706 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ja">
-  <head>
+<head>
+	<meta charset="UTF-8">
+	<title>Kuchuan InformationStudio</title>
+
+	<link rel="shortcut icon" href="favicon.ico"/>
+	<link rel="stylesheet" href="css/style.css">
     <!-- Required meta tags -->
-    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
+	  <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- font -->
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Cutive+Mono">
+    <!-- reference your copy Font Awesome here (from our Kits or by hosting yourself) -->
+    <link href="https://use.fontawesome.com/releases/v5.9.0/css/all.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+ <!--    <div class="emblem">George*Hastings*</div> -->
+
+<header>
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+		<a class="d-flex navbar-brand" href="#">
+	    <img src="favicon.ico" width="30" height="30" class="d-inline-block align-top" alt="" style="margin-right: 7px">
+	    Kuchuan infomation Studio
+	  </a>
+
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
+
+	  <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+	    <ul class="navbar-nav">
+			      <li class="nav-item"><a class="nav-link smothscroll" href="index.html#about" title="About"><i class="fas fa-user"></i> About </a></li>
+			      <li class="nav-item"><a class="nav-link smothscroll" href="index.html#resume" title="Resume"><i class="far fa-file-alt"></i> Resume </a></li>
+			      <li class="nav-item"><a class="nav-link smothscroll" href="index.html#MyFavorite" title="MyFavorite"><i class="fas fa-briefcase"></i> MyFavorite </a></li>
+
+			      <li class="nav-item dropdown">
+			        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-info-circle"></i>
+			          Another Informations
+			        </a>
+			        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+			          <a class="dropdown-item" href="#">Awards</a>
+			          <a class="dropdown-item" href="#">Skills</a>
+			          <a class="dropdown-item" href="#">My Favorte</a>
+			          <a class="dropdown-item" href="#">Pictures</a>
+			        </div>
+			      </li>
+	    </ul>
+	  </div>
+	</nav>
 
 
-    <title>Dean's practice</title>
-
-  </head>
-
-  <body>
 
 
-  <body style="padding-top:3.5rem;"><!-- 画像を小さくした時の上部が見切れないようないする -->
 
-<!-- ヘッダーがはいります -->
-<div id="header">
-<!-- </div>
-<div id="content">
-    <a href="#link01">なんとか</a>
-    <div name="link01" id="link01">かんとか</div> -->
-
-  <nav class="navbar navbar-expand-lg navbar-light bg-info fixed-top">
-  <a class="navbar-brand text-white" href="#">Dean's Long Vacation in 2018</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <!-- メニューを二つに分けて左寄せにした(mr-auto) -->
-    <ul class="navbar-nav mr-auto ">
-      <li class="nav-item active">
-        <a class="nav-link  text-white" href="#">Home<!-- <span class="sr-only">(current)</span> --></a>
-      </li>
-    </ul>
-    <!-- メニューを二つに分けて右寄せした(mr-left-auto) -->
-    <ul class="navbar-nav mr-left-auto">
-      <li class="nav-item ">
-        <a class="nav-link  text-white" href="#feature">FEATURE</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link text-white" href="#access">ACCESS</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link text-white" href="#news">NEWS</a>
-      </li>
-      <!-- <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">NEWS
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Something else here</a>
+  <div id="headerwrap">
+    <div class="container">
+      <div class="row centered">
+        <div class="col-lg-12">
+          <h1 style="margin-top: 150px">Dean</h1>
+          <h3 style="margin-top: 10px">Koji HORIKAWA</h3>
+          <h3 style="margin-top: 20px">Educater & Calliglapher & Programmer</h3>
         </div>
-      </li> -->
-      <li class="nav-item">
-        <a class="nav-link text-white" href="#contact">CONTACT</a>
-      </li>
-    </ul>
+        <!--/.col-lg-12 -->
+      </div>
+      <!--/.row -->
+    </div>
+    <!--/.container -->
   </div>
-</nav>
-</div>
-<!-- end of header-->
+  <!--/.#headerwrap -->
 
-<!-- carousel -->
-<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-  <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
-  </ol>
-  <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img class="d-block w-100" src="img/01totle.jpg" alt="ウミガメ">
-            <div class="carousel-caption d-none d-md-block">
-              <div class="glow_banner">
-                <span class="catch">
-                  <h5>フィリピン・セブ・モアルボアル</h5>
-                  <p>アイランドホッピングの途中のウミガメが見えるスポット。</p>
-                </span>
-              </div>
-            </div><!-- /.carousel-caption -->
-          </div><!-- /.carousel-item -->
-<!--       <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: First slide"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#555" dy=".3em">First slide</text></svg> -->
-          <div class="carousel-item">
-            <img class="d-block w-100 " src="img/02hana.jpg" alt="四季彩の丘">
-            <div class="carousel-caption d-none d-md-block">
-              <div class=glow_banner>
-                <span class="catch">
-                  <h5>日本・北海道・富良野</h5>
-                  <p>ここ四季彩の丘は、春から秋にかけて四季折々の花が植えられている</p>
-                </span>
-              </div>
-            </div><!-- /.carousel-caption -->
-          </div><!-- /.carousel-item -->
-<!--       <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Second slide"><title>Placeholder</title><rect width="100%" height="100%" fill="#666"/><text x="50%" y="50%" fill="#444" dy=".3em">Second slide</text></svg> -->
-          <div class="carousel-item">
-            <img class="d-block w-100" src="img/03itary.jpg" alt="チンクエテッレ">
-            <div class="carousel-caption d-none d-md-block">
-              <div class="glow_banner">
-                <span class="catch">
-                  <h5>イタリア・チンクエテッレ</h5>
-                  <p>ジェノバから特急で約２時間。イタリア国内からの観光客が多い</p>
-                </span>
-              </div>
-            </div><!-- /.carousel-caption -->
-          </div><!-- /.carousel-item -->
-<!--       <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Third slide"><title>Placeholder</title><rect width="100%" height="100%" fill="#555"/><text x="50%" y="50%" fill="#333" dy=".3em">Third slide</text></svg> -->
-          <div class="carousel-item">
-            <img class="d-block w-100" src="img/04pisa.jpg" alt="ピサ">
-            <div class="carousel-caption d-none d-md-block">
-              <div class="glow_banner">
-                <span class="catch">
-                  <h5>イタリア・ピサ</h5>
-                  <p>ピサはイタリアのトスカーナ州にある都市。象徴的な存在であるピサの斜塔は高さ 56 m</p>
-                </span>
-              </div>
-            </div><!-- /.carousel-caption -->
-          </div><!-- /.carousel-item -->
-          <div class="carousel-item">
-            <img class="d-block w-100" src="img/05mac.jpg" alt="ピサ">
-            <div class="carousel-caption d-none d-md-block">
-              <div class="glow_banner">
-                <span class="catch">
-                  <h5>日本・北海道・美瑛</h5>
-                  <p>「青い池」、Macの壁紙にも使われた“コバルトブルーの絶景”</p>
-                </span>
-              </div>
-            </div><!-- /.carousel-caption -->
-          </div><!-- /.carousel-item -->
-  </div>
-
-  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-
-</div>
-<!-- end of carousel -->
+</header>
 
 
-<!-- feature -->
+<contens>
 
-<a id="feature" class="mb-3">　</a>
-<div class="container">
-		<h2 class="pt-5">FEATURE</h2>
+  <section id="about" name="about">
+    <div id="intro">
+      <div class="container">
+        <div class="row">
 
-            <div class="card-deck">
-              <div class="row">
-                <div class="col-sm-6 col-md-4">
-                      <div class="card">
-                        <img class="card-img-top" src="img/card01.jpg" alt="カード1の画像">
-                        <div class="card-body">
-                          <h5 class="card-title">マラパスクワの夕日</h5>
-                          <p class="card-text">マラパスクア島は南北に細長いセブ島の最北端に位置し、東西に１km・南北に2.5kmの小さな小さな島。第２のボラカイ島と言われているマラパスクア島は、セブ市内からバスで４～５時間。閑静なリゾート地でありながら、世界有数のダイビングスポットを持ち、ニタリザメとの遭遇は９０％を超える。また、白沙のカランガマン島への玄関にもなっている</p>
-                        </div>
-                        <div class="card-footer">
-                          <small class="text-muted">（撮影）2018.04.28</small>
-                        </div>
-                      </div>
-                </div>
-                <div class="col-sm-6 col-md-4">
-                      <div class="card">
-                        <img class="card-img-top" src="img/card02.jpg" alt="カード2の画像">
-                        <div class="card-body">
-                          <h5 class="card-title">マリーナ・ディ・ロアーノ</h5>
-                          <p class="card-text">ロアーノ(伊: Loano)は、イタリア共和国リグーリア州サヴォーナ県にある、人口約11,000人の基礎自治体。このマリーナにはイタリアだけでなく、フランス、ドイツ、スイスなどに住む人々のヨットが繫留されている。カーサ・バカンツァのあるピエトロ・リグーレからは歩いて３０分ほどの距離。地元で獲れたシーフードは多くの旅行客を楽しませている。</p>
-                        </div>
-                        <div class="card-footer">
-                          <small class="text-muted">（撮影）2018.08.04</small>
-                        </div>
-                      </div>
-                </div>
-
-                <div class="col-sm-6 col-md-4">
-                      <div class="card">
-                        <img class="card-img-top" src="img/card03.jpg" alt="カード3の画像">
-                        <div class="card-body">
-                          <h5 class="card-title">チンクエテッレの彩り</h5>
-                          <p class="card-text">チンクエ・テッレ（イタリア語: Cinque Terre）は、イタリア北西部のリグーリア海岸にある5つの村を指す。険しい海岸に色とりどりの家屋が並ぶ文化的景観によって知られており、ポルトヴェーネレや小島群などと共にユネスコの世界遺産に登録されている。愛の小道  (it:Via dell'Amore)はマナローラとリオマッジョーレの間をつなぐ約1キロ強の遊歩道。2018年8月現在がけ崩れのため修復中。</p>
-                        </div>
-                        <div class="card-footer">
-                          <small class="text-muted">（撮影）2018.08.10</small>
-                        </div>
-                      </div>
-                </div>
-            </div>
+          <div class="col-lg-3 col-lg-offset-3">
+            <h5>ABOUT</h5>
           </div>
 
-</div>
+              <div class="col-lg-6">
+                <t>名前：Dean ( 堀川浩二 / ほりかわこうじ )</t>
+                <br>
+                <t>出身：奈良</t>
+                <br>
+                <t>趣味：バイク・旅・ダイビング・DIY</t>
+                <br>
+                <t>特技：書道・中国語</t>
+                <br>
+                <t>プログラミング経験：VisualBasic for Access / Delphi を少々</t>
+                <br><br>
 
+                <ul>
+                </ul>
+                  <br>
+                <p>I'm Educater and Jr. &amp;Sr. High school with 19 years of professional experience. And Chinese Calliglapher with 45 years of professional experience. I'm interested in all kinds of Commputer Technology, but my major focus is on Infomation and Communication Technology.<br>
+                I wont to have skills in other fields like Commputer Programing or WEB Tecnology.
+                </p>
+              </div>
 
+              <div class="col-lg-3">
+            <p><a href="../Dean/index.html#"><i class="icon-file"></i></a>
+            </p>
+          </div>
 
-<!-- end of Feature -->
-
-
-<!-- Access -->
-<a id="access">　</a>
-<div class="container">
-    <h2 class="pt-5">ACCESS</h2>
-    <h5>Malapascua Island</h5>
-    <div class="iframe-content">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6033.217825498622!2d124.11143008202828!3d11.33047723291857!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33a7de5aa7a2f22f%3A0xff09eb4357ae5981!2sFrench+Kiss+Divers!5e0!3m2!1sja!2sph!4v1555734623719!5m2!1sja!2sph" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+        <!--/.row -->
+      </div>
+      <!--/.container -->
     </div>
-    <h5 class="pt-5">Marina di Roano</h5>
-    <div class="iframe-content">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2863.680640417065!2d8.262774315346142!3d44.131208979107754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12d2f6532b6afc73%3A0x23b8c30b1ff6c2ff!2sMarina+di+Loano!5e0!3m2!1sja!2sph!4v1555545182574!5m2!1sja!2sph" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
-    </div>
-    <h5 class="pt-5">Riomaggiore(Parco Nazionale delle Cinque Terre)</h5>
-    <div class="iframe-content">
-       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1466945.8699844186!2d8.618997547905652!3d44.10133730413606!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12d4fa8971ac8b07%3A0x119e0fb487f86580!2z44Kk44K_44Oq44KiIOOAkjE5MDE3IOODqeODu-OCueODmuODhOOCo-OCoiDjg6rjgqrjg57jg4Pjgrjjg6fjg7zjg6w!5e0!3m2!1sja!2sph!4v1555735129145!5m2!1sja!2sph" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-    </div>
+    <!--/ #intro -->
+  </section>
 
-<!-- end of access -->
-
-<!-- News -->
-  <a id="news">　</a>
-    <h2 id="News" class="pt-5">NEWS</h2>
-
-  <table class="table">
-    <today>
-        <tr>
-            <th>2019.04.01</th>
-            <td>お知らせを更新しました</td>
-        </tr>
-        <tr>
-            <th>2019.04.10</th>
-            <td>ブログを更新しました</td>
-        </tr>
-        <tr>
-            <th>2019.04.17</th>
-            <td>お知らせを更新しました</td>
-        </tr>
-    </tbody>
-  </table>
-    <div class="col-offset-xs-5 col-xs-3 col-offset-5 col-md-6 offset-md-3 col-sm-8 offset-sm-2 offset-lg-4 col-lg-4">
-      <button type="submit" class="btn btn-lg btn-dark btn-block">News一覧へ</button>
-    </div>
-<!-- end of news -->
-</div><!-- 全体のコンテンツの終了 -->
-
-<!-- contact -->
-<div class="container py-3">
-  <a id="contact" >　</a>
-      <h2 class="pt-5">CONTACT</h2>
-  
-          <form class="form-horizontal pt-3">
+  <section id="product" name="product">
+        <div id="intro">
+          <div class="container">
             <div class="row">
-              <label for="inputName" class="col-sm-4 control-label">名前</label>
-              <div class="col-ofset-1 col-lg-7">
-                <input type="text" class="form-control" id="inputName" placeholder="姓と名は一文字あけてください">
+        
+              <div class="col-lg-3 col-lg-offset-3">
+                <h5>APPLICATON</h5>
               </div>
-            </div>
-            <div class="row pt-3 .rounded-lg">
-              <label for="inputEmail" class="col-sm-4 control-label">メールアドレス</label>
-              <div class="col-ofset-1 col-lg-7">
-                <input type="email" class="form-control" id="inputEmail" placeholder="forexample@aaa.com">
-              </div>
-            </div>
-            <div class="row pt-3 .rounded-lg">
-              <label for="exampleFormControlTextarea1" class="col-sm-4 control-label" >メッセージ</label>
-                <div class="col-ofset-1 col-lg-7">
-                  <textarea type="text" class="form-control id="exampleFormControlTextarea1 rows="3"></textarea>
-                </div>
-            </div>
-            <div class="form-group pt-5">
-              <div class="col-offset-xs-5 col-xs-3 col-offset-5 col-md-6 offset-md-3 col-sm-8 offset-sm-2 offset-lg-4 col-lg-4">
-                <button type="submit" class="btn btn-lg btn-dark btn-block">送信</button>
-              </div>
-            </div>
-          </form>
-</div>
-<!-- end of contact -->
 
-<!-- foooter -->
-    <!-- Footer Elements -->
-    <div class="container py-3">
-    <i class="fas fa-camera-retro">
-      <!-- Social buttons -->
-      <ul class="list-unstyled list-inline text-center">
-        <li class="list-inline-item">
-          <a class="btn-floating btn-fb mx-1">
-            <i class="fab fa-facebook-f"> </i>
-          </a>
-        </li>
-        <li class="list-inline-item">
-          <a class="btn-floating btn-tw mx-1">
-            <i class="fab fa-twitter"> </i>
-          </a>
-        </li>
-        <li class="list-inline-item">
-          <a class="btn-floating btn-gplus mx-1">
-            <i class="fab fa-google-plus-g"> </i>
-          </a>
-        </li>
-        <li class="list-inline-item">
-          <a class="btn-floating btn-li mx-1">
-            <i class="fab fa-linkedin-in"> </i>
-          </a>
-        </li>
-        <li class="list-inline-item">
-          <a class="btn-floating btn-dribbble mx-1">
-            <i class="fab fa-dribbble"> </i>
-          </a>
-        </li>
-      </ul>
-    </i>
-      <!-- Social buttons -->
+              
+        
+              
+        
+            </div>
+            <!--/.row -->
+          </div>
+          <!--/.container -->
+        </div>
+        <!--/ #intro -->
+    <div class="app">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3">
+            <div class="icon">
+              <div class="col-lg-3 col-lg-offset-3">
+                <h5>APPLICATION</h5>
+              </div>
+
+              <div class="col-lg-6">
+                <t>【　iOS　】</t>
+                <br>
+                <t>!BeeThing</t>
+                <br>
+                <t>【　Android　】</t>
+                <br>
+                <t>特技：書道・中国語</t>
+                <br>
+                <t>プログラミング経験：VisualBasic for Access / Delphi を少々</t>
+                <br><br>
+              
+                <ul>
+                </ul>
+                <br>
+                <p>
+                </p>
+              </div>
+              
+              <div class="col-lg-3">
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
+  </section>
 
-<!-- Footer Elements -->
-<footer class="page-footer font-small blue bg-indigo pt-4">
-    <!-- Copyright -->
-    <div class="footer-copyright text-center py-3  bg-info text-white">&copy; 2019 Copyrights : <a class="footer-copyright-link text-white" href="http://kuchuan.jp/"><strong>Kuchuan Education &amp; Infomation Studio</strong>. All Rights Reserved</a></div>
-    <!-- Copyright -->
+  <section id="resume" name="resume">
+    <!--EDUCATION DESCRIPTION -->
+    <div class="container desc">
+      <div class="row">
+  
+        <div class="col-lg-3 col-lg-offset-1">
+          <h5>EDUCATION</h5>
+        </div>
+  
+        <div class="col-lg-6">
+          <p>
+            <t>Engineering &amp; English of Education</t><br>NexSeed, Cebu, Philippine <br>
+            <i>6 Months Course</i>
+          </p>
+        </div>
+        <div class="col-lg-3">
+          <p>
+            <sm>APRIL 2019 - CURRENT</sm><br>
+            <imp>Now</imp>
+          </p>
+        </div>
+  
+  
+        <div class="col-lg-3">
+        </div>
+        <div class="col-lg-6 col-lg-offset-3">
+          <p>
+            <t>Master of Education</t><br>NARA UNIVERSITY OF EDUCATION, Nara, Japan<br>
+            <i>2 Years Course</i>
+          </p>
+        </div>
+        <div class="col-lg-3">
+          <p>
+            <sm>APRIL 1996 - MARCH 1999</sm>
+          </p>
+        </div>
+  
+        <div class="col-lg-3">
+        </div>
+        <div class="col-lg-6 col-lg-offset-3">
+          <p>
+            China Academy of Art, Hangzhou, China <br>
+            <i>2 Years Course (Government expenses)</i>
+          </p>
+        </div>
+        <div class="col-lg-3">
+          <p>
+            <sm>SEPTEMBER 1994 - AUGUST 1996</sm>
+          </p>
+        </div>
+  
+        <div class="col-lg-3">
+        </div>
+        <div class="col-lg-6 col-lg-offset-3">
+          <p>
+            Beijing Language and Culture University, Beijing, China <br>
+            <i>1 Years Course (Government expenses)</i>
+          </p>
+        </div>
+        <div class="col-lg-3">
+          <p>
+            <sm>SEPTEMBER 1993 - AUGUST 1994</sm>
+          </p>
+        </div>
+  
+        <div class="col-lg-3">
+        </div>
+        <div class="col-lg-6 col-lg-offset-3">
+          <p>
+            <t>Degree of Education</t><br>NARA UNIVERSITY OF EDUCATION, Nara, Japan<br>
+            <i>4 Years Course</i>
+          </p>
+        </div>
+        <div class="col-lg-3">
+          <p>
+            <sm>APRIL 1988 - AUGUST 1995</sm>
+          </p>
+        </div>
+      </div>
+      <!--/.row -->
+      <br>
+      <hr>
+    </div>
+    <!--/.container -->
+  </section>
+
+
+
+
+
+
+  <section id="pictures1" name="pictures1">
+    <div class="gallery">
+      <div class="demo">
+        <figure class="imghvr-slide-up"><img src="img/photo08.jpg" alt="example-image">
+          <figcaption>
+            <t>青の洞窟・カプリ島</t>
+            <sm>：船頭さんはサンタルチアを熱唱してくれるが、その分チップを取られる。</sm>
+          </figcaption>
+          <a href="javascript:;"></a>
+        </figure>
+      </div>
+      <div class="demo">
+        <figure class="imghvr-slide-up"><img src="img/04pisa.jpg" alt="example-image">
+          <figcaption>
+            <t>ピサ・イタリア</t>
+            <sm>：相変わらず傾いている</sm>
+          </figcaption>
+          <a href="javascript:;"></a>
+        </figure>
+      </div>
+      <div class="demo">
+        <figure class="imghvr-slide-up"><img src="img/photo03.jpg" alt="example-image">
+          <figcaption>
+            <t>チンクエテッレ</t>
+            <sm>：海に面した世界文化遺産</sm>
+          </figcaption>
+          <a href="javascript:;"></a>
+        </figure>
+      </div>
+      <div class="demo">
+        <figure class="imghvr-slide-up"><img src="img/photo07.jpg" alt="example-image">
+          <figcaption>
+            <t>青い池</t>
+            <sm>：Macの壁紙で有名になった人造の池</sm>
+          </figcaption>
+          <a href="javascript:;"></a>
+        </figure>
+      </div>
+      <div class="demo">
+        <figure class="imghvr-slide-up"><img src="img/photo05.jpg" alt="example-image">
+          <figcaption>
+            <t>四季彩の丘・北海道美瑛</t>
+            <sm>：多くの観光客が花を楽しむ</sm>
+          </figcaption>
+          <a href="javascript:;"></a>
+        </figure>
+      </div>
+      <div class="demo">
+        <figure class="imghvr-slide-up"><img src="img/photo01.jpg" alt="example-image">
+          <figcaption>
+            <t>積丹半島のウニ丼</t>
+            <sm>：バフンウニ満載のどんぶりは時価６０００円</sm>
+          </figcaption>
+          <a href="javascript:;"></a>
+        </figure>
+      </div>
+  </section>
+
+
+      <a class="d-flex justify-content-center" style="margin-bottom: 5px; font-weight: 500 ">My Photos</a>
+
+
+  <section id="pictures2" name="pictures2">
+    <div class="gallery">
+      <div class="demo">
+        <figure class="imghvr-slide-up"><img src="img/card02.jpg" alt="example-image">
+          <figcaption>
+            <t>ロアーノ・イタリア</t>
+            <sm>：フランス、モナコ、ドイツなどの富豪のヨットが集まっている</sm>
+          </figcaption>
+          <a href="javascript:;"></a>
+        </figure>
+      </div>
+      <div class="demo">
+        <figure class="imghvr-slide-up"><img src="img/photo10.jpg" alt="example-image">
+          <figcaption>
+            <t>カランガマン島</t>
+            <sm>：白砂と青海。ここは天国、日差しは地獄。</sm>
+          </figcaption>
+          <a href="javascript:;"></a>
+        </figure>
+      </div>
+      <div class="demo">
+        <figure class="imghvr-slide-up"><img src="img/photo06.jpg" alt="example-image">
+          <figcaption>
+            <t>パングラオ・フィリピン</t>
+            <sm>：ボホール島アロナビーチから出るアイランドホッピングの船で</sm>
+          </figcaption>
+          <a href="javascript:;"></a>
+        </figure>
+      </div>
+      <div class="demo">
+        <figure class="imghvr-slide-up"><img src="img/photo11.jpg" alt="example-image">
+          <figcaption>
+            <t>海の子・カモテス島</t>
+            <sm>：カモテスのビーチでで。カメラを向けるとポーズを取ってくれた。</sm>
+          </figcaption>
+          <a href="javascript:;"></a>
+        </figure>
+      </div>
+      <div class="demo">
+        <figure class="imghvr-slide-up"><img src="img/card01.jpg" alt="example-image">
+          <figcaption>
+            <t>マラパスクワ・フィリピン</t>
+            <sm>：リトル・ボラカイ。小さな島にフィリピン有数のダイビングスポットがある。</sm>
+          </figcaption>
+          <a href="javascript:;"></a>
+        </figure>
+      </div>
+      <div class="demo">
+        <figure class="imghvr-slide-up"><img src="img/photo09.jpg" alt="example-image">
+          <figcaption>
+            <t>ヒルトゥガンのカクレクマノミ</t>
+            <sm>：自然保護区の魚は人にほとんど警戒心を持たない。</sm>
+          </figcaption>
+          <a href="javascript:;"></a>
+        </figure>
+      </div>
+  </section>
+
+
+
+  <section id="resume" name="resume">
+    <!--EDUCATION DESCRIPTION -->
+    <div class="container desc">
+      <div class="row">
+
+        <div class="col-lg-3 col-lg-offset-1">
+          <h5>EDUCATION</h5>
+        </div>
+
+        <div class="col-lg-6">
+          <p>
+            <t>Engineering &amp; English of Education</t><br>NexSeed, Cebu, Philippine <br>
+            <i>6 Months Course</i>
+          </p>
+        </div>
+        <div class="col-lg-3">
+          <p>
+            <sm>APRIL 2019 - CURRENT</sm><br>
+            <imp>Now</imp>
+          </p>
+        </div>
+
+
+        <div class="col-lg-3">
+        </div>
+        <div class="col-lg-6 col-lg-offset-3">
+          <p>
+            <t>Master of Education</t><br>NARA UNIVERSITY OF EDUCATION, Nara, Japan<br>
+            <i>2 Years Course</i>
+          </p>
+        </div>
+        <div class="col-lg-3">
+          <p>
+            <sm>APRIL 1996 - MARCH 1999</sm>
+          </p>
+        </div>
+
+        <div class="col-lg-3">
+        </div>
+        <div class="col-lg-6 col-lg-offset-3">
+          <p>
+            China Academy of Art, Hangzhou, China <br>
+            <i>2 Years Course (Government expenses)</i>
+          </p>
+        </div>
+        <div class="col-lg-3">
+          <p>
+            <sm>SEPTEMBER 1994 - AUGUST 1996</sm>
+          </p>
+        </div>
+
+        <div class="col-lg-3">
+        </div>
+        <div class="col-lg-6 col-lg-offset-3">
+          <p>
+            Beijing Language and Culture University, Beijing, China <br>
+            <i>1 Years Course (Government expenses)</i>
+          </p>
+        </div>
+        <div class="col-lg-3">
+          <p>
+            <sm>SEPTEMBER 1993 - AUGUST 1994</sm>
+          </p>
+        </div>
+
+        <div class="col-lg-3">
+        </div>
+        <div class="col-lg-6 col-lg-offset-3">
+          <p>
+            <t>Degree of Education</t><br>NARA UNIVERSITY OF EDUCATION, Nara, Japan<br>
+            <i>4 Years Course</i>
+          </p>
+        </div>
+        <div class="col-lg-3">
+          <p>
+            <sm>APRIL 1988 - AUGUST 1995</sm>
+          </p>
+        </div>
+      </div>
+      <!--/.row -->
+      <br>
+      <hr>
+    </div>
+    <!--/.container -->
+  </section>
+
+
+  <!--WORK DESCRIPTION -->
+  <div class="container desc">
+    <div class="row">
+
+      <div class="col-lg-3 col-lg-offset-1">
+        <h5>WORK</h5>
+      </div>
+      <div class="col-lg-6 col-lg-offset-3">
+        <p>
+          <t>Not in Employment</t><br>Professional NEET <br>
+        </p>
+        <p>
+          <more>
+          </more>
+        </p>
+      </div>
+      <div class="col-lg-3">
+        <p>
+          <sm>APRIL 2018 - CURRENT</sm>
+        </p>
+      </div>
+
+      <div class="col-lg-3">
+      </div>
+      <div class="col-lg-6 col-lg-offset-3">
+        <p>
+          <t>IKUEINISHI junior and Senior high school, Nara, Japan </t><br>Information Science teacher and Calligraphy Teacher <br>
+        </p>
+        <p>
+          <more>
+          </more>
+        </p>
+      </div>
+      <div class="col-lg-3">
+        <p>
+          <sm>APRIL 1999 - MAY 2018</sm>
+        </p>
+      </div>
+    </div>
+    <!--/.row -->
+    <br>
+    <hr>
+  </div>
+  <!--/.container -->
+
+
+  <!--AWARDS DESCRIPTION -->
+  <div class="container desc">
+    <div class="row">
+      <div class="col-lg-3 col-lg-offset-1">
+        <h5>AWARDS</h5>
+      </div>
+      <div class="col-lg-6">
+        <p>
+          <t>Microsoft Innovative Educator Experts</t><br> MIEE Japan <br>
+        </p>
+      </div>
+      <div class="col-lg-3">
+        <p>
+          <sm>SEPTEMBER 2016-2017</sm>
+        </p>
+      </div>
+
+
+      <div class="col-lg-3">
+      </div>
+      <div class="col-lg-6 col-lg-offset-3">
+        <p>
+          <t>1st PRIZE of Qust Cup (My student's Team)</t><br> Quest Education Program
+        </p>
+        <p>
+          <more>Quest Cup is held annually in February. The goal of the Quest Cup is to provide an opportunity for the Quest Education students to present the results of their research through the Quest Education Program to a panel of judges, who are the business persons, engineers, professors and business experts.</more>
+        </p>
+      </div>
+      <div class="col-lg-3">
+        <p>
+          <sm>JULY 2016</sm>
+        </p>
+      </div>
+
+    </div>
+    <!--/.row -->
+    <br>
+  </div>
+  <!--/.container -->
+ 
+  <section id="MyFavorite" name="MyFavorite">
+    <!--PORTFOLIO DESCRIPTION -->
+    <div class="container desc">
+      <div class="row">
+        <div class="col-lg-3 col-lg-offset-1">
+          <h5>MY FAVORTE 陸海空 PHOTOS</h5>
+        </div>
+        <div class="col-lg-6">
+          <p><img class="d-flex img-responsive" src="img/port01.jpg" width="100%" alt=""></p>
+        </div>
+        <div class="col-lg-3 col-lg-offset-1">
+          <p>（陸）Straight road</p>
+          <p>
+            <more>12年間の相棒ZZR-1400 ABSでツーリング。北海道の通称「ジェットコースターの道」は真っ直ぐだけれどもアップ・ダウンが激しい。この後、知床で出川哲朗と会う。昨年12月に留学費用の捻出のため、泣く泣く相棒を手放した。<br><br>
+              <sm><i class="icon-tag"></i>思い出の道</sm>
+            </more>
+          </p>
+        </div>
+
+        <div class="col-lg-3">
+        </div>
+        <div class="col-lg-6">
+          <p><img class="d-flex img-responsive" src="img/port02.jpg" width="100%" alt=""></p>
+        </div>
+        <div class="col-lg-3">
+          <p>(海) Philippine's SEA</p>
+          <p>
+            <more>ある日突然に船酔いが激しくなり、20年近くダイビングから遠ざかっていた。セブに来て穏やかな海を見て魂に火が灯り、再びダイビングを始める。2018年11月にマクタンで PADIの Advanced water を取得。<br><br>
+              <sm><i class="icon-tag"></i>フィリピンの海は、優しさで溢れている</sm>
+            </more>
+          </p>
+        </div>
+
+        <div class="col-lg-3">
+        </div>
+        <div class="col-lg-6">
+          <p><img class="d-flex img-responsive" src="img/port03.jpg" width="100%" alt=""></p>
+        </div>
+        <div class="col-lg-3">
+          <p>(空) Endless Sky</p>
+          <p>
+            <more>バンタヤン・アイランドを旅行した際に翔ぶ。高度約３０００mからのスカイダイブは、ある種の人生のスパイスになった。<br><br>
+              <sm><i class="icon-tag"></i> あっという間に落ちていく</sm>
+            </more>
+          </p>
+        </div>
+
+      </div>
+</section>
+  
+<section id="anotherinfo" name="anotherinfo">
+  <br>
+    <div id="">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-lg-offset-1">
+            <img class="img-responsive" src="img/degawa.jpg" hight="100%" width="100%"  alt="">
+            <h5>ANOTHER INFOMATION (Japnese)</h5>
+          </div>
+
+          <div class="col-lg-6 text-color:black">
+            <p>中学・高校で１９年間の教育現場で働く。また、書道家（号は攝魚）として45年のキャリアを持つが現在活動休止。専門は書道教育および国語教育。のちに情報科の免許を取り、職場内でのクラスチェンジを図った。
+            <br>学生時代は英語が大の苦手であったため、中国語ならなんとかなると思い、書道を足がかりに国費で３年間の中国留学。しかしそのスキルをまったく活かさず、中国語のスキルは日常会話程度までに落ち込んでいる。
+            <br>前職では、生徒にある種のビジネスアイデアコンテストに取り組ませ、一度のグランプリと二度の準グランプリを獲得。ナチュラルにコーチングを実施する才能があると評価された。にも関わらず、そこからスピンアウト。人生100年時代、そして100歳まで学び続ける必要がある世の中に変わるのなら、今のうちに学び直ししても良いのではないかと考えて英語の学び直しを2018年から始める。当初１年後に再就職のつもりであったが、プログラミングの学習に興味を持ち、今日にいたる。
+            <br><br>
+            </p>
+            <t>好きな言葉：</t>
+            <ul>
+              <li>「情けは人の為ならず」</li>
+              <li>「偉いね、すごいね、天才だね」</li>
+              <li>「思い切り」</li>
+            </ul>
+
+            <t>信条：</t>
+            <ul>
+              <li>「最小努力の最大幸福」</li>
+              <li>「タダ飯、タダ乗り、芸のうち」</li>
+            </ul>
+
+            <t>これまで経験したラッキー：</t>
+            <ul>
+              <li>宝くじ１等１００万円当たる</li>
+              <li>北海道ツーリング中、電動バイクの出川哲朗と会う</li>
+              <li>概ね善良な人と出会う</li>
+              <li>自分の実力の範囲を超える評価をもらうことが多い</li>
+              <li>大きな事故でも死んでいない</li>
+              <li>概ね健康である</li>
+            </ul>
+              <br>
+
+          </div>
+          <div class="col-lg-3">
+          </div>
+        </div>
+      </div>
+      <!--/.row -->
+    </div>
+    <br>
+    <br>
+    <!--/.container -->
+  </section>
+
+
+
+<footer>
+  <div id="copyrights">
+    <div class="container">
+      <p>
+        © Copyrights <strong>Kuchuan Infomation Studio</strong>. All Rights Reserved
+      </p>
+    </div>
+  </div>
 </footer>
-<!-- end of footer -->
 
-    <!-- Optional JavaScript -->
+
+
+
+
+<!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="js/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
-    <!-- ＃リンクのスムーズスクロール   うまく作動しない-->
-    <script src="http://code.jquery.com/jquery-3.1.0.min.js"></script>
-     <script>
-        $(function(){
-            $('a[href^=#]'+'a:not(".carousel-control")').click(function(){
-                var speed = 500;
-                var href= $(this).attr("href");
-                var target = $(href == "#" || href == "" ? 'html' : href);
-                var position = target.offset().top;
-                $("html, body").animate({scrollTop:position}, speed, "swing");
-                return false;
-            });
-        });
-      </script>
-</body>
+    
+    <script src="js/emblem.js"></script>
+    <!-- <script src="https://static.codepen.io/assets/embed/embed-74056a7aa6eaff0b2edbead837ec13362b0601c0efa24e00ede7f8b9b205b7fa.js"> -->
+<!--    </script>-->
+	</contens>
+  </body>
+
+
+
 </html>
+
+
+
