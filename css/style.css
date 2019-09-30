@@ -69,13 +69,57 @@ hr {
 /*---------------------------------------------------
 3.1 navbar
 ---------------------------------------------------*/
-.logo {
+
+
+
+/*---------------------------------------------------
+4.1 Logo
+---------------------------------------------------*/
+/* 笑い男 */
+#Laughing_man{
   position: absolute;
-  padding: 10px;
-  right: 0px;
-  height: 149px;
-  width: 149px;
-  opacity: 0.5;
+  margin-top: 60px;
+  padding: 0px;
+  right: 60px;
+  /* height: 100px;
+  width:  100px; */
+  opacity: 0.6;
+ color:rgb(255,255,255);
+ font:bold 11px Impact;
+ text-align:center;
+}
+
+.rotate-anime {
+  animation: rotate-anime 8s linear infinite;
+  position: absolute;
+  margin-top: -135px;
+  right: -15px;
+  padding: 0px;
+  opacity: 0.6;
+}
+@keyframes rotate-anime {
+  0%  {transform: rotate(0);}
+  100%  {transform: rotate(-360deg);}
+}
+@-webkit-keyframes rotate-anime {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(-360deg);
+    transform: rotate(-360deg);
+  }
+}
+@keyframes rotate-anime {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(-360deg);
+    transform: rotate(-360deg);
+  }
 }
 
 /*---------------------------------------------------
@@ -263,30 +307,6 @@ sm {
 /* Contact Form */
 
 
-@-webkit-keyframes animate-loading {
-  0% {
-    -webkit-transform: rotate(0deg);
-    transform: rotate(0deg);
-  }
-
-  100% {
-    -webkit-transform: rotate(360deg);
-    transform: rotate(360deg);
-  }
-}
-
-@keyframes animate-loading {
-  0% {
-    -webkit-transform: rotate(0deg);
-    transform: rotate(0deg);
-  }
-
-  100% {
-    -webkit-transform: rotate(360deg);
-    transform: rotate(360deg);
-  }
-}
-
 .contact-form .error-message {
   display: none;
   color: #fff;
@@ -308,7 +328,7 @@ sm {
 }
 
 
-
+/* 
 
 // Config: fonts
 $font-mono: "Cutive Mono", monospace;
@@ -370,8 +390,8 @@ $ease-cb: cubic-bezier(.19,1,.22,1);
 //Setups
 *, *:before, *:after {
   box-sizing: border-box; 
-}
-// Body
+} */
+/* // Body
 body {
   margin: 0;
   width: 100%;
@@ -453,7 +473,7 @@ body {
   77%  { opacity: 1;  }
   100% { opacity:0.7; text-shadow: 0px 0px 20px rgba(255,255,255,0.0)}
 }
-
+ */
 
 
 /*.iframe-content {
@@ -1592,7 +1612,7 @@ body {
 
 
 
-* {box-sizing: border-box;}
+/* * {box-sizing: border-box;}
 
 
 .emblem {
@@ -1630,24 +1650,12 @@ body {
         }
     }
 }
+ */
 
 
 
-
-/* 笑い男 */
-#Laughing_man{
-  position: absolute;
-  padding: 10px;
-  right: 50px;
-  height: 100px;
-  width:  100px;
-  opacity: 0.5;
- color:rgb(255,255,255);
- font:bold 11px Impact;
- text-align:center;
-}
-/* ﾃｷｽﾄ */
-.text{
+ﾄ
+/* .text{
   position:relative;
   z-index:0;
   width:132px;height:132px;
@@ -1659,9 +1667,10 @@ body {
 .text span{
   position:absolute;top:-2px;left:51px;
   width:30px; height:137px;
-}
+} */
+
 /* ﾀｲﾎﾟｸﾞﾗﾌｨ */
-.p1{-webkit-transform: rotate(0deg);}
+/* .p1{-webkit-transform: rotate(0deg);}
 
 .p3{-webkit-transform: rotate(8deg);}
 .p4{-webkit-transform: rotate(14deg);}
@@ -1727,9 +1736,10 @@ body {
 .p62{-webkit-transform: rotate(332deg);}
 .p63{-webkit-transform: rotate(337deg);}
 .p64{-webkit-transform: rotate(342deg);}
-.p65{-webkit-transform: rotate(348deg);}
+.p65{-webkit-transform: rotate(348deg);} */
 /* ｱﾆﾒｰｼｮﾝ */
-@-webkit-keyframes myrotate {
+/* @-webkit-keyframes myrotate {
   0%{-webkit-transform: rotate(0deg);}
   100%{-webkit-transform: rotate(-360deg)}
-}
+}  
+*/
